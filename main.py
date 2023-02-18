@@ -8,7 +8,7 @@ print('start convert . . . ')
 
 for i in jpg:
     print(i)
-    im = Image.open(i)  # 開啟圖片檔案
+    im = Image.open(i)
     name = i.lower().split('/')[::-1][0]
     webp = name.replace('jpg', 'webp')
     im.save(f'./converted/{webp}', 'WEBP', quality=40, )
