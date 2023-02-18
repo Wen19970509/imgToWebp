@@ -1,3 +1,7 @@
+### imgToWebp
+
+[Pillow](https://pillow.readthedocs.io/en/stable/)
+
 ### 進入虛擬環境 
 ```zsh
 source venv/bin/activate
@@ -27,4 +31,6 @@ python main.py
 1. 進入虛擬環境
 2. run script 
 
-需轉檔的圖片放於 Raw 資料夾 (目前僅支援 png , jpg) , 轉檔完成的圖片會在 converted 資料夾
+需轉檔的圖片放於 `raw` 資料夾 (目前僅支援 png , jpg) , 轉檔完成的圖片會在 `converted` 資料夾
+
+如要調整壓縮品質，自行調整 `quality`，0等於最小尺寸
