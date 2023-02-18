@@ -29,7 +29,8 @@ python main.py
 
 ### 使用方式 
 1. 進入虛擬環境
-2. run script 
+2. 安裝套件
+3. run script 
 
 需轉檔的圖片放於 `raw` 資料夾 (目前僅支援 png , jpg) , 轉檔完成的圖片會在 `converted` 資料夾
 
